@@ -1,0 +1,14 @@
+.HomePage {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+  grid-template-columns: 11rem 25rem;
+  grid-template-rows: auto 1fr;
+  justify-content: center;
+  justify-items: center;
+}
+
+.HomeErrorLogin {
+  padding-top: 1rem;
+  text-align: center;
+}

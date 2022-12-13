@@ -1,0 +1,45 @@
+.RegisterPage h2 {
+  font-size: 2rem;
+  display: grid;
+  margin-bottom: 1rem;
+  justify-content: center;
+}
+
+.RegisterPage form {
+  display: grid;
+  justify-content: center;
+}
+
+.RegisterPage form fieldset {
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 5%;
+  border-color: var(--color1);
+  box-shadow: 1px 2px 10px var(--color4);
+}
+
+.RegisterPage form fieldset label {
+  display: grid;
+  text-align: center;
+  font-weight: bold;
+}
+
+.RegisterPage form fieldset input {
+  display: grid;
+  justify-content: end;
+  padding: 0.25rem;
+  width: 12rem;
+}
+
+.RegisterPage form button {
+  display: grid;
+  margin-top: 0.5rem;
+  width: 12rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  background-color: var(--color1);
+  color: var(--color3);
+  border-color: var(--color2);
+  border-radius: 5px;
+  font-weight: bold;
+}

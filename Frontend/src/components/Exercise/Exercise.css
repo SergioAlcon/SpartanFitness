@@ -1,0 +1,66 @@
+output {
+  box-shadow: 1px 1px 10px var(--color4);
+  border: 2px solid var(--color1);
+  border-radius: 0.8rem;
+  width: 25rem;
+  height: 30rem;
+  padding: 0.5rem 1.5rem 0.5rem 1rem;
+}
+
+output h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.25rem;
+}
+
+output h3 {
+  font-size: 0.3;
+  margin-bottom: 0.25rem;
+}
+
+output p {
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+output img {
+  width: 100%;
+  object-fit: contain;
+}
+
+output section {
+  display: flex;
+  justify-content: space-between;
+}
+
+output section .buttonlike {
+  width: 9rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  background-color: var(--color1);
+  color: var(--color3);
+  border: var(--color1);
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+output section .buttonfav {
+  width: 9rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  background-color: var(--color2);
+  color: var(--color3);
+  border: var(--color2);
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.buttonExer {
+  width: 6rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  background-color: var(--color2);
+  color: var(--color3);
+  border: var(--color2);
+  border-radius: 5px;
+  font-weight: bold;
+}

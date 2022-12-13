@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
+
+header {
+  background-color: var(--color1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  font-family: "Rubik Mono One", sans-serif;
+  font-size: 400%;
+}
+
+header img {
+  max-width: 150px;
+}
+
+header .link,
+header .link:hover {
+  color: var(--color2);
+}

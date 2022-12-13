@@ -1,0 +1,57 @@
+.listexercises {
+  display: flex;
+  flex-direction: column;
+  height: 30rem;
+  border-radius: 0.8rem;
+  border: 2px solid var(--color1);
+  box-shadow: 1px 1px 10px var(--color4);
+}
+
+.listexercises input {
+  border-radius: 0.7rem 0.7rem 0 0;
+  border-color: none;
+  background-color: var(--color2);
+  color: var(--color3);
+  height: 1.8rem;
+  width: 12rem;
+  text-align: center;
+  outline: none;
+}
+
+.listexercises menu {
+  display: flex;
+  flex-direction: column;
+  height: 28rem;
+  overflow: auto;
+
+  width: 12rem;
+}
+
+.listexercises menu > li {
+  cursor: pointer;
+  padding: 0.15rem 0;
+  text-align: center;
+}
+
+.listexercises menu > li .link,
+.listexercises menu > li .link:hover {
+  color: var(--color2);
+}
+
+.listexercises menu li > h3 {
+  font-size: 1rem;
+}
+.listexercises menu li > p {
+  font-size: 0.8rem;
+}
+
+.listexercises menu li ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.listexercises menu li ul li p b {
+  color: var(--color1);
+}

@@ -1,0 +1,56 @@
+.loginSection {
+  background-color: var(--color2);
+  color: var(--color3);
+  height: 1.8rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 5%;
+}
+
+.newExercise {
+  width: 7rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  background-color: var(--color2);
+  color: var(--color1);
+  border-color: var(--color3);
+  border-radius: 5px;
+  font-weight: bold;
+  margin-right: 5rem;
+}
+
+.authButtons {
+  width: 7rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  background-color: var(--color1);
+  color: var(--color2);
+  border-color: var(--color3);
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.loginSection div {
+  color: var(--color1);
+  padding-left: 0.3rem;
+  padding-right: 0.5rem;
+  font-weight: bold;
+}
+
+.loginSection div:hover {
+  color: var(--color1);
+  padding-left: 0.3rem;
+  padding-right: 0.5rem;
+  font-weight: bold;
+}
+
+.logRegNav {
+  background-color: var(--color2);
+  height: 1.8rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  padding-right: 5%;
+}
